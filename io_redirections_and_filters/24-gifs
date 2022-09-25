@@ -1,2 +1,2 @@
 #!/bin/bash
-find. -name "*.gif" -type f -exec du -h {} + | sort -h | rev | cut -d ".","/" -f 1 | rev
+find . -name "*.gif" -type f -exec du -h {} + | sort -h | rev | cut -d ".","/" -f 1 | rev
